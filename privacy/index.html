@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy &middot; Signal &amp; Focus</title>
+  <meta name="description" content="Privacy Policy for Signal &amp; Focus and its local TikTok publishing tool.">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <header class="site">
+    <div class="wrap">
+      <a class="brand" href="../">Signal <span>&amp;</span> Focus</a>
+      <nav aria-label="Main">
+        <a href="../">Home</a>
+        <a href="../terms/">Terms</a>
+        <a href="./" aria-current="page">Privacy</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="wrap">
+      <h1>Privacy Policy</h1>
+      <p class="meta">Effective date: 4 October 2026</p>
+
+      <p>This policy explains what the Signal &amp; Focus publishing tool handles when you connect your TikTok account. The tool runs locally on your own computer. There is no Signal &amp; Focus cloud service that receives your data, and content is sent to TikTok only when an authorized upload is initiated.</p>
+
+      <h2>1. What the tool handles</h2>
+      <ul>
+        <li><strong>TikTok account identifiers:</strong> the account's open ID returned by TikTok Login Kit.</li>
+        <li><strong>OAuth tokens:</strong> an access token and a refresh token issued by TikTok.</li>
+        <li><strong>OAuth scopes and expiry information:</strong> which permissions you granted (for example video upload) and when the tokens expire.</li>
+        <li><strong>Video files:</strong> the finished videos you select for upload.</li>
+        <li><strong>Captions and publishing metadata:</strong> the caption and hashtags prepared for a video.</li>
+        <li><strong>Publication IDs and processing status:</strong> the identifier TikTok returns for an upload and its processing state.</li>
+        <li><strong>Technical error and retry information:</strong> error codes, attempt counts and timestamps, used to avoid duplicate uploads and to retry safely.</li>
+      </ul>
+
+      <h2>2. Local storage</h2>
+      <p>Everything above is stored on your own computer. Credentials are intended to be stored in your local operating-system environment. Secrets are not embedded in source files or in publication records. Publication records contain identifiers, status, captions and error information, but not tokens or secrets.</p>
+
+      <h2>3. How data is used</h2>
+      <p>The tool uses TikTok Login Kit and the official TikTok Content Posting API only. It uses this information solely to sign you in, to upload your own finished videos to your TikTok inbox as drafts, to check their processing status, and to prevent the same video from being uploaded twice. It does not scrape TikTok and does not use unofficial TikTok APIs.</p>
+
+      <h2>4. What is sent to TikTok</h2>
+      <p>A video file is sent to TikTok only when an authorized upload is initiated by you. Once TikTok receives it, TikTok's own terms and privacy policy apply to that content and to your account.</p>
+
+      <h2>5. No sale of personal data</h2>
+      <p>Signal &amp; Focus does not sell personal data and does not share it for advertising.</p>
+
+      <h2>6. Retention</h2>
+      <p>Data stays on your computer until you delete it. Tokens remain until they expire, are replaced or are removed by you. Publication records are kept so that duplicate uploads can be prevented, and you may delete them at any time.</p>
+
+      <h2>7. Security</h2>
+      <p>Credentials are kept in your local environment rather than in files, and log output is designed not to include them. Because the tool runs on your computer, its security also depends on the security of that computer and your account.</p>
+
+      <h2>8. Third-party services</h2>
+      <p>The tool communicates with TikTok through its official APIs. TikTok processes your data under its own privacy policy. No other third-party service receives your TikTok data from the tool.</p>
+
+      <h2>9. Your choices and revoking access</h2>
+      <ul>
+        <li>You can revoke the tool's access at any time in your TikTok account's security and permissions settings.</li>
+        <li>You can delete the locally stored tokens, publication records and files at any time.</li>
+        <li>You decide which video is uploaded and whether a draft is ever published.</li>
+      </ul>
+
+      <h2>10. Changes to this policy</h2>
+      <p>This policy may be updated from time to time. The effective date above shows the latest version.</p>
+
+      <h2>11. Contact</h2>
+      <p>Questions about this policy: <strong>YOUR-CONTACT-EMAIL@example.com</strong></p>
+    </div>
+  </main>
+
+  <footer class="site">
+    <div class="wrap">
+      <p>&copy; 2026 Signal &amp; Focus &middot; <a href="../">Home</a> &middot; <a href="../terms/">Terms</a></p>
+    </div>
+  </footer>
+</body>
+</html>
